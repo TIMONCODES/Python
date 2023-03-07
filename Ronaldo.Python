@@ -1,0 +1,26 @@
+#class to do....
+class Bank_account:
+    def __init__(self,acc__no,balance,date_of_opening,customer_name,amount):
+        self.acc__no=acc__no
+        self.balance=balance
+        self.date_of_opening=date_of_opening
+        self.customer_name=customer_name
+        self.amount=amount
+        
+    def deposit(self):
+        return(self.amount)
+        
+    def withdrawal_amount(self):
+        return(self.amount)
+        
+    def check_balance(self):
+        print(self.balance)
+        
+    def customer_details(self):
+        print(self.acc__no,self.balance,self.date_of_opening,self.customer_name)
+        
+B=Bank_account(84,15000,"13/3/23","Wesley",6000)
+print(B.deposit())
+print(B.withdrawal_amount())
+print(B.check_balance())
+print(B.customer_details())
